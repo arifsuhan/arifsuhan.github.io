@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Miama";
+  src: url("../font/2.ttf");
+}
+
+p{
+/*    font-family: 'chandrabatiOMJ';   */
+    font-family: 'Miama';   
+}
