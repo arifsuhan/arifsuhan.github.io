@@ -1,16 +1,27 @@
-//font_path = []
 
-// let font_path = new FontFace('hello', 'url(lib/font/Saraswatii.ttf)');
-let banglaText = document.getElementById("banglaText");
-banglaText.style.fontFamily = "chandrabatiOMJ";
+function loadFont(fontUrl, elementID){
 
-//font_path.load().then(function(loadedFont)
-//{
-//    document.fonts.add(loadedFont);
-//    console.log("font loaded successfully");
-//    banglaText.style.fontFamily = "hello";
-//}).catch(function(error) {
-//    console.log("Error while font loading!");
-//});
+	// let fontName = fontUrl.split("/")[2].split(".")[0];
+	let fontName = "GoraiMJ";
+	let newStyle = document.createElement('style');
 
-//console.log("hello 2020");
+	console.log(fontName);
+
+	newStyle.appendChild(document.createTextNode("\
+	@font-face {\
+	    font-family: " + fontName + ";\
+	    src: url('" + fontUrl + "');\
+	}\
+	"));
+
+	document.head.appendChild(newStyle);
+	elementID.style.fontFamily = fontName;
+}
+
+font_path = [
+	"../lib/font/CHANM___.TTF",
+]
+
+// let banglaText = document.getElementById("banglaText");
+// banglaText.style.fontFamily = "chandrabatiOMJ";
+// loadFont(font_path[2],banglaText);
