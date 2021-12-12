@@ -1,4 +1,7 @@
-### arifsuhan.github.io
+### To publish this
+- Go to [Settings](https://github.com/arifsuhan/arifsuhan.github.io/settings) > Change repository visibility > Make it public
+- Push the commit 
+- Check if it's deployed or not [here](https://github.com/arifsuhan/arifsuhan.github.io/deployments/activity_log?environment=github-pages)
 
 
 ### Reference
