@@ -1,0 +1,32 @@
+1. If your purpose is only learning programming: 
+---------------------------------------------------
+Way 1 - Hard to easy: 
+      Learn C (for basic concept purpose), 
+      then C++ (To know data structure), 
+      Java (OOP - To learn Object oriented Programming),       
+      Python( To play with data and Machine learning, automation) and so on.
+
+Way 2 - Easy to hard: 
+      Python, Java, C++, C.
+---------------------------------------------------
+2. If you really want to learn about CSE and get deep, check below resources:
+https://github.com/ossu/computer-science
+---------------------------------------------------
+3. When you want to be expert and get a specific profession:
+
+a. Software Engineer - Problem solving (puzzle like)and programming language skill. Learn version control(Git + Github). Do PS(Problem solving) in various websites: https://www.freecodecamp.org/news/the-10-most-popular-coding-challenge-websites-of-2016-fb8a5672d22f/. 
+but I prefer hackerrank as it's beginner friendly. To get the taste of interview of top level company like amazon, google try: leetcode or hackerearth. 
+
+Backend Dev -  Learn framework like django, flask, springboot, nodejs
+Frontend Dev - Learn about Android, Kotlin, Flutter, Dart etc
+
+b.DevOps - Start learning cloud computing (AWS, GCP), deployment tools (docker, jenkins etc),
+c.Tester - software testing concepts and tools (postman - API testing, jmeter - performance testing, selenium, appium - automation, burp suite - security testing and so on) 
+
+PS:
+a. Check the job circular of companies and prepare yourself by learning those skills day by day.
+b. Never stop learning. Subscribe to top youtuber, join programming community like JugBD and meet-attend the seminars.
+c. Try to get international level skills instead of national or local.
+d. Try to be in touch with a CSE student in BD better if you can make friendship with other country CSE fellow via social media. 
+
+Finally best of luck
