@@ -3,18 +3,37 @@
 <head>
   <meta charset="utf-8">
   <title>Radio Station</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 
 <!-- <h1>শুনুন সরাসরি ট্রাফিক সম্প্রচার কার্যক্রম</h1> -->
 
-<div id="printable_area">
-  <h3>শুনুন সরাসরি ট্রাফিক সম্প্রচার কার্যক্রম</h3>
-<div>
-<br>
-<audio controls="true" preload="none">
-  <source src="https://stream-35.zeno.fm/8sn7cac604zuv" type="audio/mp3">Your browser does not support the audio element.
-</audio><br>
+<div class="col-lg-4 col-md-4 col-sm-4 container justify-content-center">
+  
+  <h4>শুনুন সরাসরি ট্রাফিক সম্প্রচার কার্যক্রম</h4>
+  <p class="radio_title">Radio: </p>
+  
+  <audio controls="true" preload="none">
+    <source class="radio_stream" src="https://stream-35.zeno.fm/8sn7cac604zuv" type="audio/mp3">Your browser does not support the audio element.
+  </audio>
+
+  <div class="dropdown">
+<!--     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Radio Stations
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+    </ul> -->
+
+    <select class="myselect">                                        
+      <option value="0">empty</option>
+    </select>
+  </div>
+
+
+
 </div>
 
 </body>
